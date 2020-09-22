@@ -1,38 +1,64 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1.5em 0;
+}
+
+.Alert {
+  padding: 1em 2em;
+  background-color: #f9d7da;
+  border: 1px solid #f6c6cb;
+  border-radius: 0.2em;
+  color: #731b22;
+}
+
+.Selector {
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Selector-dropdowns {
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Selector-dropdowns label {
+  padding-right: 0.5em;
+}
+
+.Selector-origin,
+.Selector-destination {
+  padding: 1em;
+}
+
+.Selector-button {
+  font-size: 16px;
+  cursor: pointer;
+  align-self: center;
+  margin: 1.5em 0 2em;
+  padding: 0.5em 2em;
+  border-radius: 0.2em;
+  border: 0;
+  background-color: #8884d8;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.Selector-button:enabled {
+  opacity: 1;
+}
+
+.Selector-button:enabled:hover {
+  background-color: #8659d8;
+}
+
+.Chart {
+  display: flex;
+  align-self: stretch;
+  justify-content: center;
+  padding: 2em;
 }
