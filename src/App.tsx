@@ -21,11 +21,15 @@ class App extends React.Component {
   };
 
   async componentDidMount() {
-    const places = await apiService.get("places");
-    this.setState({
-      origins: places,
-      destinations: places,
-    });
+    try {
+      const places = await apiService.get("places");
+      this.setState({
+        origins: places,
+        destinations: places,
+      });
+    } catch (e) {
+      console.log(e);
+    }
   }
 
   fetchRoutes = async (

@@ -7,6 +7,9 @@ class Api {
   constructor() {
     this.urlRoot = `${config.apiRoot}`;
     this.defaultOptions = {
+      headers: {
+        Authorization: `Bearer ${config.apiToken}`,
+      },
       redirect: "follow",
     };
   }
