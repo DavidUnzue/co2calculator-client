@@ -13,7 +13,7 @@ class Api {
 
   async get(path: string = "", params: {} = {}, options?: RequestInit) {
     let url = `${this.urlRoot}${path}`;
-    if (params) {
+    if (Object.keys(params).length > 0) {
       const urlParams = new URLSearchParams(params);
       url = `${url}?${urlParams.toString()}`;
     }
