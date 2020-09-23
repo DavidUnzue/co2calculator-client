@@ -1,9 +1,9 @@
 import React from "react";
-import config from "./config";
 import "./App.css";
 import Selector from "./components/Selector";
 import Chart from "./components/Chart";
 import { Route } from "./interfaces/route.interface";
+import apiService from "./services/api";
 
 class App extends React.Component {
   state: {
@@ -21,8 +21,7 @@ class App extends React.Component {
   };
 
   async componentDidMount() {
-    const res = await fetch(config.apiRoot + "places");
-    const places = await res.json();
+    const places = await apiService.get("places");
     this.setState({
       origins: places,
       destinations: places,
@@ -33,12 +32,12 @@ class App extends React.Component {
     selectedOriginId: string,
     selectedDestinationId: string
   ) => {
-    let routes = [];
+    let routes: [] = [];
     try {
-      const res = await fetch(
-        `${config.apiRoot}routes/?origin=${selectedOriginId}&destination=${selectedDestinationId}`
-      );
-      routes = await res.json();
+      routes = await apiService.get("routes", {
+        origin: selectedOriginId,
+        destination: selectedDestinationId,
+      });
     } catch (e) {
       this.setState({
         error: true,
