@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/co2calculator-client/precache-manifest.f9bc064bdab38174dbdbaad980828be1.js"
+  "/co2calculator-client/precache-manifest.38d835aab67fe91e5201eb4a5e8e22dd.js"
 );
 
 self.addEventListener('message', (event) => {

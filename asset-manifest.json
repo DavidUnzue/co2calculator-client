@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/co2calculator-client/static/css/main.18b0c9fb.chunk.css",
-    "main.js": "/co2calculator-client/static/js/main.25a4f732.chunk.js",
-    "main.js.map": "/co2calculator-client/static/js/main.25a4f732.chunk.js.map",
+    "main.js": "/co2calculator-client/static/js/main.93a99282.chunk.js",
+    "main.js.map": "/co2calculator-client/static/js/main.93a99282.chunk.js.map",
     "runtime-main.js": "/co2calculator-client/static/js/runtime-main.f4c4f5d3.js",
     "runtime-main.js.map": "/co2calculator-client/static/js/runtime-main.f4c4f5d3.js.map",
     "static/js/2.adfc404e.chunk.js": "/co2calculator-client/static/js/2.adfc404e.chunk.js",
     "static/js/2.adfc404e.chunk.js.map": "/co2calculator-client/static/js/2.adfc404e.chunk.js.map",
     "index.html": "/co2calculator-client/index.html",
-    "precache-manifest.f9bc064bdab38174dbdbaad980828be1.js": "/co2calculator-client/precache-manifest.f9bc064bdab38174dbdbaad980828be1.js",
+    "precache-manifest.38d835aab67fe91e5201eb4a5e8e22dd.js": "/co2calculator-client/precache-manifest.38d835aab67fe91e5201eb4a5e8e22dd.js",
     "service-worker.js": "/co2calculator-client/service-worker.js",
     "static/css/main.18b0c9fb.chunk.css.map": "/co2calculator-client/static/css/main.18b0c9fb.chunk.css.map",
     "static/js/2.adfc404e.chunk.js.LICENSE.txt": "/co2calculator-client/static/js/2.adfc404e.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.f4c4f5d3.js",
     "static/js/2.adfc404e.chunk.js",
     "static/css/main.18b0c9fb.chunk.css",
-    "static/js/main.25a4f732.chunk.js"
+    "static/js/main.93a99282.chunk.js"
   ]
 }
