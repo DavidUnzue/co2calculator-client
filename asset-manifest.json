@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/co2calculator-client/static/css/main.18b0c9fb.chunk.css",
+    "main.js": "/co2calculator-client/static/js/main.616734b0.chunk.js",
+    "main.js.map": "/co2calculator-client/static/js/main.616734b0.chunk.js.map",
+    "runtime-main.js": "/co2calculator-client/static/js/runtime-main.f4c4f5d3.js",
+    "runtime-main.js.map": "/co2calculator-client/static/js/runtime-main.f4c4f5d3.js.map",
+    "static/js/2.adfc404e.chunk.js": "/co2calculator-client/static/js/2.adfc404e.chunk.js",
+    "static/js/2.adfc404e.chunk.js.map": "/co2calculator-client/static/js/2.adfc404e.chunk.js.map",
+    "index.html": "/co2calculator-client/index.html",
+    "precache-manifest.8ba6daa462143be5eecf410d9c30fc51.js": "/co2calculator-client/precache-manifest.8ba6daa462143be5eecf410d9c30fc51.js",
+    "service-worker.js": "/co2calculator-client/service-worker.js",
+    "static/css/main.18b0c9fb.chunk.css.map": "/co2calculator-client/static/css/main.18b0c9fb.chunk.css.map",
+    "static/js/2.adfc404e.chunk.js.LICENSE.txt": "/co2calculator-client/static/js/2.adfc404e.chunk.js.LICENSE.txt",
+    "static/media/car.e26b1956.svg": "/co2calculator-client/static/media/car.e26b1956.svg",
+    "static/media/plane.eb5ed7f2.svg": "/co2calculator-client/static/media/plane.eb5ed7f2.svg",
+    "static/media/train.43c0562f.svg": "/co2calculator-client/static/media/train.43c0562f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4c4f5d3.js",
+    "static/js/2.adfc404e.chunk.js",
+    "static/css/main.18b0c9fb.chunk.css",
+    "static/js/main.616734b0.chunk.js"
+  ]
+}
