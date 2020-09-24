@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97d88cf955332cee759dd502b1215a26",
+    "revision": "dc46dfe8f7dc398d204e5306a58b2c08",
     "url": "/co2calculator-client/index.html"
   },
   {
-    "revision": "e5a7d3a4c4b75627a31c",
+    "revision": "b1eaeae8d961058d972e",
     "url": "/co2calculator-client/static/css/main.18b0c9fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/co2calculator-client/static/js/2.adfc404e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e5a7d3a4c4b75627a31c",
-    "url": "/co2calculator-client/static/js/main.a09cdcf1.chunk.js"
+    "revision": "b1eaeae8d961058d972e",
+    "url": "/co2calculator-client/static/js/main.34dd2840.chunk.js"
   },
   {
     "revision": "b8c9a2638baf70ac10d0",
