@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The values for the API host url and the API Token (needed for authorization) are defined in the file `.env`.
 
-** Important **
+**Important**  
 Storing secrets like the API Token in this `.env` file should not be done in production, as these values will be compiled into the final javascript bundle and therefore will be accessible through the browser.
 
 For local development, you can use an alternative file called `.env.local`. The variables defined here will override those in the `.env` file.
